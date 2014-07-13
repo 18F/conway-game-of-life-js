@@ -309,3 +309,22 @@ var game6 = new GameOfLife({
 add_listeners(game6, "example6");
 
 
+var example7_cells = [
+  [0,0,0,1,1,0,0,0,0],
+  [0,0,1,1,1,1,0,0,0],
+  [0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,1,0,0,0,0],
+  [0,0,0,0,0,1,0,0,0],
+  [0,0,0,1,1,1,0,0,0],
+  [0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0]
+];
+
+var game7 = new GameOfLife({
+  canvas_id:    "life-example7",
+  cell_width:   10,
+  cell_height:  10,
+  init_cells:   example7_cells
+});
+add_listeners(game7, "example7");
