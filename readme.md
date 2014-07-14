@@ -1,5 +1,15 @@
-Conway's Game of Life in Javascript/Canvas
+Conway's Game of Life in Javascript/Canvas For 18F Instruction
 ==========================================
+
+This is a fork of Matt Ruten's Javascript Implementation of
+Game of Life slight modification to act as an instructional
+programming lesson for internal study by the 18F staff.
+
+I've taken his code and broken out some functions to 
+be re-implemented as an exercise.  The not-yet-implemented
+code can be reached from the file "lesson1.html" --- you 
+will observer that it does not work correctly.  You can
+see the working code at index.html.
 
 Examples
 --------
